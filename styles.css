@@ -1,0 +1,67 @@
+h3 {
+    color: #F3A261;
+    border: 1px solid #e37011;
+    width: 50%;
+    width: 30%;
+    margin: 2px auto;
+    text-align: center;
+  }
+  
+  /*Styles for Even Odd List & Product Data */
+  /* 
+  264653 - teal
+  299D8F - 🍏 
+  E9C46B - 💛 
+  F3A261 - 📙 
+  E76F51 - 🧡 
+   */
+  
+  /* #myInput { */
+   #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  /* #myUL  */
+  
+  #even, #odd{
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* #myUL li a */
+  
+  #even li, #odd li {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+   
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  /* #myUL li a:hover:not(.header) */
+  
+  #even li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+   h3 {
+    object-position: 50% 50%;
+    width: 250px;
+  }
+  
+  p {
+    background-color: #b1deef;
+    min-height: 20px;
+    max-width: 30%;
+    margin: 1% auto;
+    text-align: center;
+    padding: 5% auto;
+    border: 1px solid #264653;
+  }
+  
+  li {
+    border: solid 1px #299D8F;
+  }
