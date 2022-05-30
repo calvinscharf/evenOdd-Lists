@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="dummy.js"></script>
-    <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href=".ccs/styles.css">
+    <script src="evenOdd.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Even Odd Lists</h1>
     <hr/>
@@ -19,15 +20,15 @@
             <input type="text" name="word" id="word"  placeholder="what's your word?" onkeyup="updateWord(this)"> 
         </div>
         <div> 
-            <input type="button" value="Even or Odd?" onclick="">
+            <input type="button" value="Even or Odd?" onclick="handleSubmit()">
         </div>
     </form>
     <section>
-        <h2>Even</h2>
+        <h3>Even</h3>
         <ul id="even"></ul>
     </section>
     <section>
-        <h2>Odd</h2>
+        <h3>Odd</h3>
         <ul id="odd"></ul>
     </section>
 </body>
